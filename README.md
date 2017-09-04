@@ -12,13 +12,6 @@ iOS8以后，苹果推出了新框架Wekkit，提供了替换UIWebView的组件W
 支持了更多的HTML5特性；
 高达60fps的滚动刷新率以及内置手势；
 将UIWebViewDelegate与UIWebView重构成了14类与3个协议（查看苹果官方文档）；
-然后从以下几个方面说下WKWebView的基本用法：
-加载网页
-加载的状态回调
-新的WKUIDelegate协议
-动态加载并运行JS代码
-webView 执行JS代码
-JS调用App注册过的方法
 
 ![image](https://github.com/joinxinxu/WebLoad/blob/master/baidupic.gif)
 
