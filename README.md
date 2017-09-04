@@ -1,4 +1,7 @@
 简介
+本demo是介绍加载h5页面的时候在nav上添加进度条显示的，以UIWebView和WKWebView两种加载方式进行讲解。
+
+![image](https://github.com/joinxinxu/WebLoad/blob/master/baidupic.gif)
 
 如果项目支持iOS7之前的系统版本的话，可以做个系统判断，这里就不介绍了，这里还是推荐使用WKWebView，先介绍下使用这个的好处，然后介绍使用UIWebView和WKWebView加载进度条的代码。
 
@@ -12,8 +15,6 @@ iOS8以后，苹果推出了新框架Wekkit，提供了替换UIWebView的组件W
 支持了更多的HTML5特性；
 高达60fps的滚动刷新率以及内置手势；
 将UIWebViewDelegate与UIWebView重构成了14类与3个协议（查看苹果官方文档）；
-
-![image](https://github.com/joinxinxu/WebLoad/blob/master/baidupic.gif)
 
 一、首先介绍UIWebview进度条的使用方法
 
