@@ -20,6 +20,7 @@ iOS8以后，苹果推出了新框架Wekkit，提供了替换UIWebView的组件W
 webView 执行JS代码
 JS调用App注册过的方法
 
+![image](https://github.com/joinxinxu/WebLoad/blob/master/baidupic.gif)
 
 一、首先介绍UIWebview进度条的使用方法
 
